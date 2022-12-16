@@ -29,14 +29,14 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código Press Ticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo download do código Mega Ticket...${GRAY_LIGHT}"
   printf "\n\n"
 
 
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/rtenorioh/Press-Ticket  /home/deploy/${instancia_add}/
+  git clone https://github.com/zievo/Press-Ticket-v3  /home/deploy/${instancia_add}/
 EOF
 
   sleep 2
